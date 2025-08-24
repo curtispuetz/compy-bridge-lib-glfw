@@ -1,0 +1,14 @@
+[project]
+name = "compy-bridge-lib-glfw"
+version = "0.0.0"
+description = ""
+authors = []
+readme = "readme.md"
+license = {text = "MIT"}
+
+[tool.setuptools.package-data]
+"compy_bridge_lib_glfw" = ["data/**/*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
