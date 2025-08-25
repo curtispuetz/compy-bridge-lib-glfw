@@ -1,11 +1,13 @@
 {
-    "glfw._GLFWwindow": {
-        "cpp_type": "GLFWwindow*",
-        "cpp_includes": {
-            "angle_include": "GLFW/glfw3.h"
-        },
-        "required_py_import": {
-            "name": "glfw"
+    "to_string": {
+        "glfw._GLFWwindow": {
+            "to": "GLFWwindow*",
+            "cpp_includes": {
+                "angle_include": "GLFW/glfw3.h"
+            },
+            "required_py_import": {
+                "name": "glfw"
+            }
         }
     }
 }
