@@ -5,6 +5,9 @@ description = "a Compy bridge-library for glfw"
 authors = [{ name = "Curtis Puetz", email = "todo@example.com" }]
 readme = "readme.md"
 license = {text = "MIT"}
+dependencies = [
+    "glfw==2.9.0"
+]
 
 [tool.setuptools.package-data]
 "compy_bridge_lib_glfw" = ["data/**/*"]
