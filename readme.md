@@ -1,9 +1,9 @@
-# Compy Bridge Library for GLFW
-a [Compy](https://github.com/curtispuetz/compy-cli) bridge-library for glfw
+# ComPy Bridge Library for GLFW
+a [ComPy](https://github.com/curtispuetz/compy-cli) bridge-library for glfw
 
 ## Examples
 ### Opening a window
-With this library installed, the following Compy code works to open a window. This is the typical example given in the docs for the glfw C++ and Python libraries.
+With this library installed, the following ComPy code works to open a window. This is the typical example given in the docs for the glfw C++ and Python libraries.
 
 ```python
 import glfw
