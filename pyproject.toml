@@ -1,19 +1,19 @@
 [project]
-name = "compy-bridge-lib-glfw"
+name = "pypp-bridge-lib-glfw"
 version = "0.0.2"
-description = "a Compy bridge-library for glfw"
-authors = [{ name = "Curtis Puetz", email = "compy.main@gmail.com" }]
+description = "a Py++ bridge-library for glfw"
+authors = [{ name = "Curtis Puetz", email = "pypp.main@gmail.com" }]
 readme = "readme.md"
 license = {text = "MIT"}
 requires-python = ">=3.13"
-urls = { "Homepage" = "https://github.com/curtispuetz/compy-bridge-lib-glfw" }
+urls = { "Homepage" = "https://github.com/curtispuetz/pypp-bridge-lib-glfw" }
 dependencies = [
     "glfw==2.9.0"
 ]
 
 [tool.hatch.build]
 include = [
-    "compy_bridge_lib_glfw/**/*"
+    "pypp_bridge_lib_glfw/**/*"
 ]
 
 [build-system]

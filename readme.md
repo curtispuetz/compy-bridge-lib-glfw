@@ -1,14 +1,14 @@
-# ComPy Bridge Library for GLFW
-a [ComPy](https://github.com/curtispuetz/compy-cli) bridge-library for glfw
+# Py++ Bridge Library for GLFW
+a [Py++](https://github.com/curtispuetz/pypp-cli) bridge-library for glfw
 
 ## Examples
 ### Opening a window
-With this library installed, the following ComPy code works to open a window. This is the typical example given in the docs for the glfw C++ and Python libraries.
+With this library installed, the following Py++ code works to open a window. This is the typical example given in the docs for the glfw C++ and Python libraries.
 
 ```python
 import glfw
-from compy_bridge_lib_glfw.d_types import GLFWwindowPtr
-from compy_python import to_c_string, NULL
+from pypp_bridge_lib_glfw.d_types import GLFWwindowPtr
+from pypp_python import to_c_string, NULL
 
 
 def glfw_test():
@@ -40,8 +40,8 @@ if __name__ == "__main__":
 ### Opening a window and handling inputs
 ```python
 import glfw
-from compy_python import to_c_string, NULL
-from compy_bridge_lib_glfw.d_types import GLFWwindowPtr
+from pypp_python import to_c_string, NULL
+from pypp_bridge_lib_glfw.d_types import GLFWwindowPtr
 
 
 def key_callback(
