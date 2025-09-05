@@ -1,6 +1,6 @@
 [project]
 name = "pypp-bridge-lib-glfw"
-version = "0.0.2"
+version = "0.0.0"
 description = "a Py++ bridge-library for glfw"
 authors = [{ name = "Curtis Puetz", email = "pypp.main@gmail.com" }]
 readme = "readme.md"
