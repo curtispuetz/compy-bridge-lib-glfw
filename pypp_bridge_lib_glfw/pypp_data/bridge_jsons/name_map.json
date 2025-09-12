@@ -6,7 +6,7 @@
                 "angle_include": "GLFW/glfw3.h"
             },
             "required_py_import": {
-                "module": "pypp_bridge_lib_glfw.d_types",
+                "module": "pypp_bridge_lib_glfw",
                 "name": "GLFWwindowPtr"
             }
         }
