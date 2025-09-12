@@ -9,9 +9,9 @@
                 "    args_str: str = d.handle_exprs(node.args)",
                 "    return f\"glfw{fn_camel_case}({args_str})\""
             ],
-            "cpp_includes": {
-                "angle_include": "GLFW/glfw3.h"
-            },
+            "angle_includes": [
+                "GLFW/glfw3.h"
+            ],
             "required_py_import": {
                 "name": "glfw"
             }

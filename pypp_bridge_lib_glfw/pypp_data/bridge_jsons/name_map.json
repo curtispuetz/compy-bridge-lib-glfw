@@ -2,9 +2,9 @@
     "to_string": {
         "GLFWwindowPtr": {
             "to": "GLFWwindow*",
-            "cpp_includes": {
-                "angle_include": "GLFW/glfw3.h"
-            },
+            "angle_includes": [
+                "GLFW/glfw3.h"
+            ],
             "required_py_import": {
                 "module": "pypp_bridge_lib_glfw",
                 "name": "GLFWwindowPtr"
