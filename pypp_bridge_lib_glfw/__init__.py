@@ -1,1 +1,5 @@
-from .d_types import GLFWwindowPtr
+import glfw
+
+type GLFWwindowPtr = glfw._GLFWwindow
+
+__all__ = ["glfw", "GLFWwindowPtr"]
