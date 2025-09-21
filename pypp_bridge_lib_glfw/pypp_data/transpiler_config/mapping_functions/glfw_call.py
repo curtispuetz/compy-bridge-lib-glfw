@@ -1,7 +1,7 @@
 import ast
 
 
-def glfw_map_call(node: ast.Call, d: Deps, caller_str: str) -> str:
+def mapping_fn(node: ast.Call, d: Deps, caller_str: str) -> str:
     a: list[str] = caller_str.split(".")
     assert len(a) == 2, f"more than one dot found in {caller_str}"
     fn_camel_case: str = "".join(x.capitalize() for x in a[1].split("_") if x)
