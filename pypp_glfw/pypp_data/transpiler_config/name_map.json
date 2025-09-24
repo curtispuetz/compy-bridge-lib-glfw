@@ -6,7 +6,7 @@
                 "GLFW/glfw3.h"
             ],
             "required_py_import": {
-                "module": "pypp_bridge_lib_glfw",
+                "module": "pypp_glfw",
                 "name": "GLFWwindowPtr"
             }
         }

@@ -1,13 +1,12 @@
-# Py++ Bridge Library for GLFW
-a [Py++](https://github.com/curtispuetz/pypp-cli) bridge-library for glfw
+# GLFW for Py++
+a [Py++](https://pypp-docs.readthedocs.io/) library for GLFW
 
 ## Examples
 ### Opening a window
 With this library installed, the following Py++ code works to open a window. This is the typical example given in the docs for the glfw C++ and Python libraries.
 
 ```python
-import glfw
-from pypp_bridge_lib_glfw.d_types import GLFWwindowPtr
+from pypp_glfw import glfw, GLFWwindowPtr
 from pypp_python import to_c_string, NULL
 
 
@@ -39,9 +38,8 @@ if __name__ == "__main__":
 
 ### Opening a window and handling inputs
 ```python
-import glfw
+from pypp_glfw import glfw, GLFWwindowPtr
 from pypp_python import to_c_string, NULL
-from pypp_bridge_lib_glfw.d_types import GLFWwindowPtr
 
 
 def key_callback(
@@ -92,5 +90,22 @@ def glfw_test_2():
 
 if __name__ == "__main__":
     glfw_test_2()
-
 ```
+
+## API
+
+For the API, refer to [pyGLFW](https://github.com/FlorianRhiem/pyGLFW).
+
+## Supported GLFW attributes and functions
+
+Only the attributes and functions which are shown in the above examples are tested. However, its very likely that others will work also, and you will most easily find out by trying them in your code.
+
+When you find an attribute or function which does not work, it would be really helpful if you submit a feature request with title `support for glfw.<some_name>`. Thanks in advance for if you do that.
+
+## Bug reports
+
+Report bugs to the Issues tab on this github repo using the `bug` label.
+
+## Feature requests
+
+Submit feature requests to the Issues tab on this github repo using the `feature request` label.
